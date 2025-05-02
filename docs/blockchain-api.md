@@ -23,4 +23,12 @@ The Blockchain API provides methods to query and interact with the core blockcha
 - [💾 Export State](blockchain_api/ExportState.md)
 - [🔐 Get State Proof](blockchain_api/GetStateProof.md)
 
-These methods provide comprehensive access to blockchain data, enabling developers to build explorers, analytics tools, and applications that require detailed blockchain information. 
+## 🔔 Subscription Methods
+
+The following methods provide real-time notifications for blockchain events, enabling applications to maintain up-to-date data without polling:
+
+- [📬 Subscribe](blockchain_api/SupSubscribe.md)
+- [🚫 Unsubscribe](blockchain_api/SupUnsubscribe.md)
+- [📋 Get Subscriptions](blockchain_api/SupGetSubscriptions.md)
+
+These methods provide comprehensive access to blockchain data, enabling developers to build explorers, analytics tools, and applications that require detailed blockchain information. The subscription methods in particular allow for efficient real-time monitoring of blockchain activity without constant polling. 
